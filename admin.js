@@ -630,8 +630,8 @@ const AI_PRO_CONFIG = { price: '49 TJS / месяц', limit: 15, cycleHours: 12 
 /* Заполните сами перед публикацией сайта — НЕ используйте токен,
    который когда-либо был отправлен в чат/скриншот/лог: получите
    новый через @BotFather → /revoke → /token, и вставьте сюда. */
-const AI_PRO_BOT_TOKEN = '';       // токен вашего бота-продавца
-const AI_PRO_ADMIN_CHAT_ID = '';   // ваш личный Telegram chat_id для одобрения оплат
+const AI_PRO_BOT_TOKEN = '8949070949:AAEogOkMSw-EG-U4aU-ondrJQ_9GrZ5Yo2M';       // токен вашего бота-продавца
+const AI_PRO_ADMIN_CHAT_ID = '8506743201';   // ваш личный Telegram chat_id для одобрения оплат
 
 function getAIProState() { return LS.get('ts_ai_pro', { active: false, used: 0, cycleStart: null }); }
 function saveAIProState(s) { LS.set('ts_ai_pro', s); }
